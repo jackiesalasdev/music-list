@@ -1,0 +1,110 @@
+.title-header {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  border-radius: 1.5rem;
+  border-right: whitesmoke 1px solid;
+  border-left: whitesmoke 1px solid;
+  font-family: "Patrick Hand", cursive;
+}
+
+body {
+  background-image: linear-gradient(
+    to right bottom,
+    #140014,
+    #2c152d,
+    #472449,
+    #643466,
+    #834484,
+    #854380,
+    #87427c,
+    #884178,
+    #683154,
+    #482336,
+    #27151c,
+    #000000
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.mega-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.table-card {
+  display: flex;
+  background-color: rgba(17, 17, 17, 0.5);
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  width: 55vw;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  max-height: 40rem;
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+table {
+  width: 97%;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  border-collapse: collapse;
+}
+
+.new-music {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  border-radius: 1.5rem;
+  border-right: whitesmoke 1px solid;
+  border-left: whitesmoke 1px solid;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.5rem;
+}
+
+thead {
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 1.3rem;
+  column-rule-style: none;
+  font-family: "Patrick Hand", cursive;
+}
+
+td {
+  padding: 0.5rem;
+  color: whitesmoke;
+  font-size: 1.3rem;
+  text-align: left;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nwbtn {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 1.5rem;
+  border-right: whitesmoke 1px solid;
+  border-left: whitesmoke 1px solid;
+  font-family: "Patrick Hand", cursive;
+}

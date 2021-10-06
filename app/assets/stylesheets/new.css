@@ -1,0 +1,51 @@
+.new-megacontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+.new-container {
+  display: flex;
+  background-color: rgba(17, 17, 17, 0.5);
+  border-right: 1px solid white;
+  border-left: 1px solid white;
+  width: 26vw;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 1rem;
+  max-height: 40rem;
+  height: 40rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.new-header {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  border-radius: 1.5rem;
+  border-right: whitesmoke 1px solid;
+  border-left: whitesmoke 1px solid;
+  font-family: "Patrick Hand", cursive;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+  width: 15rem;
+}
+
+input {
+  width: 12rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+input:focus {
+  outline: 2px solid pink;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}

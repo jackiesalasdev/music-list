@@ -1,0 +1,25 @@
+
+<div class="show-megacontainer">
+ 
+
+    <p class="content-1">
+      <strong>Title:</strong>
+      <%= @music.title %>
+    
+     <strong>by </strong>
+     <%= @music.artist %>
+
+
+    </p>
+  <div class ="show-container">
+
+    <iframe width="1019" height="573" src="https://www.youtube.com/embed/<%= @music.videoURL%>?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+ 
+  </div>
+
+    <div class="button-container">
+      <button class="show-button"> <%= link_to 'Edit', edit_music_path(@music) %> </button> |
+      <button class="show-button"> <%= link_to 'Back', musics_path %></button>
+   </div>
+</div>

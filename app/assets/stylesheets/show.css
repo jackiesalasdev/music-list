@@ -1,0 +1,49 @@
+.show-container {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  align-self: center;
+}
+
+.show-megacontainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content-1 {
+  width: 90%;
+  background-color: black;
+  border-radius: 1rem;
+  color: aliceblue;
+  font-size: 1.5rem;
+  border-right: white solid 1px;
+  border-left: white solid 1px;
+  margin: 0;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.show-button {
+  text-align: center;
+  background-color: black;
+  color: whitesmoke;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  border-radius: 1.5rem;
+  border-right: whitesmoke 1px solid;
+  border-left: whitesmoke 1px solid;
+  font-family: "Patrick Hand", cursive;
+  font-size: 1.5rem;
+}

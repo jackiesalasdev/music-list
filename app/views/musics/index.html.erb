@@ -1,0 +1,35 @@
+
+<div class ="mega-container">
+
+
+<h1 class = "title-header">My Music List</h1>
+
+
+<div class ="table-card">
+<table>
+  <thead>
+    <tr>
+      <th class="one">Title</th>
+      <th>Artist</th>
+      <th colspan="3" >Action</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @music.each do |music| %>
+      <tr>
+        <td><%= music.title %></td>
+        <td><%= music.artist %></td>
+        <td><%= link_to 'Show', music %></td>
+        <td><%= link_to 'Edit', edit_music_path(music) %></td>
+        <td><%= link_to 'Delete', music, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+<button class= "new-music"><%= link_to 'New Music', new_music_path %></button>
+</div>
+
+<br>
+
+<div>
